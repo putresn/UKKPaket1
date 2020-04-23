@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivitySiswaCreate"
+    android:background="@android:color/black">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="500dp"
+            android:src="@drawable/backgroundcreate"/>
+
+        <EditText
+            android:id="@+id/userpetugasu"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="45dp"
+            android:background="@drawable/textboxcreate"
+            android:drawablePadding="15dp"
+            android:paddingLeft="30dp"
+            android:textSize="15sp"
+            android:hint="Username"
+            android:textColorHint="@android:color/black"
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/passwordpetugasu"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/userpetugasu"
+            android:background="@drawable/textboxcreate"
+            android:drawablePadding="15dp"
+            android:paddingLeft="30dp"
+            android:textSize="15sp"
+            android:hint="Password"
+            android:textColorHint="@android:color/black"
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/namapetugasu"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/passwordpetugasu"
+            android:background="@drawable/textboxcreate"
+            android:drawablePadding="15dp"
+            android:paddingLeft="30dp"
+            android:textSize="15sp"
+            android:hint="Nama"
+            android:textColorHint="@android:color/black"
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/levelpetugasu"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/namapetugasu"
+            android:background="@drawable/textboxcreate"
+            android:drawablePadding="15dp"
+            android:paddingLeft="30dp"
+            android:textSize="15sp"
+            android:hint="Level (admin \ petugas )"
+            android:textColorHint="@android:color/black"
+            android:textColor="@android:color/black"/>
+
+        <Button
+            android:id="@+id/buttonsubmitcsu"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:background="@drawable/textboxcreate"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/levelpetugasu"
+            android:text="U    P    D    A   T    E"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="130dp"/>
+
+
+    </RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

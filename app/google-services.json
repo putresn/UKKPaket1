@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "691204930791",
+    "firebase_url": "https://ukklulusamin.firebaseio.com",
+    "project_id": "ukklulusamin",
+    "storage_bucket": "ukklulusamin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691204930791:android:45b59f7748acab290a7642",
+        "android_client_info": {
+          "package_name": "com.example.nyoba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691204930791-pqk06kt00uh3gq3h8bf8ksc86kjnavmg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nyoba",
+            "certificate_hash": "51d62f07e3727c41ebb08d52bd8e965ae3904d72"
+          }
+        },
+        {
+          "client_id": "691204930791-rcq00f6meqqhbjcpfnkjc59ch3ndd9dj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY_fQwqlwLtemt54xtCWxZq0uGNWY9DL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691204930791-rcq00f6meqqhbjcpfnkjc59ch3ndd9dj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

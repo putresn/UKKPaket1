@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nyoba">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ActivityEditSPP"></activity>
+        <activity android:name=".ActivitySPPCreate" />
+        <activity android:name=".ActivityEditKelas" />
+        <activity android:name=".ActivityKelasCreate" />
+        <activity android:name=".ActivityPetugasCreate" />
+        <activity android:name=".ActivityLoginSiswa" />
+        <activity android:name=".ActivityEditSiswa" />
+        <activity android:name=".ActivityEditPetugas" />
+        <activity android:name=".ActivitySiswaCreate" />
+        <activity android:name=".ActivityEntry" />
+        <activity android:name=".ActivityCek" />
+        <activity android:name=".ActivityHistory" />
+        <activity android:name=".ActivityDataSPP" />
+        <activity android:name=".ActivityDataPetugas" />
+        <activity android:name=".ActivityDataKelas" />
+        <activity android:name=".ActivityDataSiswa" />
+        <activity android:name=".ActivityHome" />
+        <activity android:name=".ActivityLogin" />
+        <activity android:name=".Activity_splashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

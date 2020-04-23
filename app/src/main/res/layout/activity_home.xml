@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityHome"
+    android:background="@android:color/black">
+
+    <ImageView
+        android:id="@+id/menubarhome"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.074"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Halo, Admin"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/textmenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menubarhome"
+        app:layout_constraintVertical_bias="0.535" />
+
+
+    <ImageView
+        android:id="@+id/textmenu"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="108dp"
+        android:src="@drawable/textmenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:clickable="true"
+        android:id="@+id/siswa"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:src="@drawable/siswa"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textmenu"
+        app:layout_constraintVertical_bias="0.507" />
+
+    <ImageView
+        android:clickable="true"
+        android:id="@+id/petugas"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/petugas"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toStartOf="@+id/kelas"
+        app:layout_constraintStart_toEndOf="@+id/siswa"
+        app:layout_constraintTop_toBottomOf="@+id/textmenu" />
+
+
+    <ImageView
+        android:id="@+id/kelas"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/kelas"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toStartOf="@+id/spp"
+        app:layout_constraintTop_toBottomOf="@+id/textmenu"
+        app:layout_constraintVertical_bias="0.507" />
+
+    <ImageView
+        android:id="@+id/spp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:src="@drawable/spp"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textmenu"
+        app:layout_constraintVertical_bias="0.507" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/backgroundhome"
+        app:layout_constraintBottom_toBottomOf="parent" >
+
+        <ImageView
+            android:id="@+id/textgen"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src="@drawable/textgen"
+            android:layout_marginLeft="90dp"/>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/downarrorw"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="25dp"/>
+
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            android:src="@drawable/dummy"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="100dp"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/verif"
+            android:layout_marginTop="290dp"
+            android:layout_marginLeft="130dp"/>
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

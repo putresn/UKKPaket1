@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityDataSiswa"
+    android:background="@android:color/black">
+
+
+    <ImageView
+        android:id="@+id/menubarentry"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/menu"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/textentry"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.31"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menubarentry"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@drawable/backgrounddata"
+        app:layout_constraintBottom_toBottomOf="parent" >
+
+        <Spinner
+            android:id="@+id/namaentry"
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/textboxentry"
+            android:drawablePadding="15dp"
+            android:paddingLeft="30dp"
+            android:layout_marginLeft="40dp"
+            android:hint="Nama"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"/>
+
+        <Spinner
+            android:id="@+id/tanggalentry"
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="125dp"
+            android:background="@drawable/textboxentry"
+            android:drawablePadding="15dp"
+            android:paddingLeft="30dp"
+            android:layout_marginLeft="40dp"
+            android:hint="Tanggal"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"/>
+
+        <EditText
+            android:id="@+id/jumlahentry"
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/textboxentry"
+            android:drawablePadding="15dp"
+            android:paddingLeft="30dp"
+            android:layout_marginLeft="40dp"
+            android:hint="Jumlah"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/buttonentry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:background="#181818"
+            android:text="S  U  B  M  I  T"
+            android:layout_below="@+id/password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="380dp"
+            android:textStyle="bold" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
